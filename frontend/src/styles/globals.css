@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  /* Light Theme */
+  --primary-color: #804cfc;
+  --secondary-color: #a681fb;
+  --white-color: #f8f8f8;
+  --l-gray-color: #d3d3d3;
+  --d-gray-color: #5e5e5e;
+  --gray-color: #c6c6c6;
+  --black-color: #1a1a1a;
+  --red-color: #ff4d4d;
+  --l-red-color: #ff9999;
+  --green-color: #00b300;
+  --l-green-color: #99ff99;
+  --blue-color: #4d4dff;
+
+  /* Dark Theme */
+  --dark-primary-color: #231448;
+  --dark-secondary-color: #4e4072;
+  --dark-white-color: #222222;
+  --dark-l-gray-color: #535353;
+  --dark-d-gray-color: #9b9b9b;
+  --dark-gray-color: #5b5b5b;
+  --dark-black-color: #e5e5e5;
+  --dark-red-color: #d80000;
+  --dark-l-red-color: #360000;
+  --dark-green-color: #00d800;
+  --dark-l-green-color: #003600;
+  --dark-blue-color: #0000d8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 16px;
+}
+
+.dark {
+  background-color: var(--dark-white-color);
+}

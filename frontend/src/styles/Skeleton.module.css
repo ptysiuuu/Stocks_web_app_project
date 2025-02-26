@@ -1,0 +1,32 @@
+.skeleton {
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  background-color: var(--l-gray-color);
+  border-radius: 0.125em;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.skeleton.dark {
+  background-color: var(--dark-l-gray-color);
+}
+
+.skeleton.darker {
+  background-color: var(--gray-color);
+}
+
+.skeleton.darker.dark {
+  background-color: var(--dark-gray-color);
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
